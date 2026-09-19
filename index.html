@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You</title>
+    <meta
+      name="description"
+      content="A tiny romantic birthday surprise made with love."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-one">
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
+    <div class="bg-orb orb-three" aria-hidden="true"></div>
+    <div class="bg-sparkle sparkle-a" aria-hidden="true"></div>
+    <div class="bg-sparkle sparkle-b" aria-hidden="true"></div>
+
+    <main class="page-shell fade-in">
+      <section class="question-card" aria-label="Birthday surprise question">
+        <p class="mini-label">Before we begin… ♡</p>
+        <h1>Are you ready for a little surprise?</h1>
+
+        <div class="answer-list">
+          <button class="answer-card" type="button" data-next="question2.html">
+            <span>YES, I’M READY! ✨</span>
+          </button>
+          <button class="answer-card" type="button" data-next="question2.html">
+            <span>MAYBE… 👀</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="question1.js"></script>
+  </body>
+</html>
